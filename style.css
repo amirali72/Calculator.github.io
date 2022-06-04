@@ -1,0 +1,120 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('put_the_location_to_your_font.ttf or .otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Share+Tech+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url(bg5.jpg); */
+    background-color: #000000;
+}
+
+#btn{
+    height: 3rem;
+    width: 3rem;
+    margin: 3px 3px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.25rem;
+    /* background-color: #4d4d4d; */
+    color: #fdfdfd;
+    border: 0.0px solid whitesmoke;
+    border-radius: 3px;
+}
+
+#btn:active {
+  /* background-color: #3e8e41; */
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}
+.wide{
+    min-width: 6.6rem;
+}
+.long{
+    min-height: 6.5rem;
+    position: relative;
+    left: 10.8rem;
+    bottom: 3.35rem;
+}
+
+.ex-wide{
+    display: inline-block;
+    width: 9.5rem;
+}
+
+.position{
+    position: relative;
+    bottom: 6.7rem;
+}
+
+.container{
+    background-color: #000;
+    width: 16rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 4px 5px rgb(255, 255, 255);
+}
+
+.container input{
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 13.5rem;
+    margin-top: 1rem;
+    background-color: #000000;
+    font-size: 1.5rem;
+    color: #fdfdfd;
+    padding-left: 0.3rem;
+    font-family:'digital-clock-font';
+    border-radius: 3px;
+}
+
+.innerContainer{
+    display: grid;
+}
+.innerContainer h2{
+    color: #fdfdfd;
+    margin: auto;
+    font-family: 'Share Tech Mono', monospace;
+    margin-top: 1rem;
+}
+
+.innerContainer p{
+    color: #fdfdfd;
+    margin: auto;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+}
+
+.dark-grey{
+    background-color: #4d4d4d;
+}
+
+.grey{
+    background: rgb(102, 102, 102);
+}
+
+.red{
+    background: rgb(172, 57, 57);
+}
+
+.blue{
+    background: rgb(0, 68, 102);
+}
+
+.innerContainer p{
+    /* color: #fdfdfd; */
+    margin: auto;
+    font-family: 'Share Tech Mono', monospace;
+}
